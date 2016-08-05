@@ -16,4 +16,4 @@ FOUNDATION_EXPORT const unsigned char objcLabelVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <objcLabel/PublicHeader.h>
 
-
+#import <objcLabel/UILabel+VDVerticalAlignment.h>

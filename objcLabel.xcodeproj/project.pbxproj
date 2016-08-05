@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE6403B11D545A6D00652BAC /* objcLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6403B01D545A6D00652BAC /* objcLabel.h */; };
+		FE6403B11D545A6D00652BAC /* objcLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6403B01D545A6D00652BAC /* objcLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE6403B81D545A6D00652BAC /* objcLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6403AD1D545A6D00652BAC /* objcLabel.framework */; };
 		FE6403BD1D545A6D00652BAC /* objcLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6403BC1D545A6D00652BAC /* objcLabelTests.m */; };
+		FE6403CA1D545A9700652BAC /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = FE6403C71D545A9700652BAC /* Cartfile */; };
+		FE6403CB1D545A9700652BAC /* objcLabel.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FE6403C81D545A9700652BAC /* objcLabel.podspec */; };
+		FE6403CF1D545AC500652BAC /* UILabel+VDVerticalAlignment.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6403CD1D545AC500652BAC /* UILabel+VDVerticalAlignment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE6403D01D545AC500652BAC /* UILabel+VDVerticalAlignment.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6403CE1D545AC500652BAC /* UILabel+VDVerticalAlignment.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +33,11 @@
 		FE6403B71D545A6D00652BAC /* objcLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = objcLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE6403BC1D545A6D00652BAC /* objcLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = objcLabelTests.m; sourceTree = "<group>"; };
 		FE6403BE1D545A6D00652BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE6403C71D545A9700652BAC /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		FE6403C81D545A9700652BAC /* objcLabel.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = objcLabel.podspec; sourceTree = "<group>"; };
+		FE6403C91D545A9700652BAC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FE6403CD1D545AC500652BAC /* UILabel+VDVerticalAlignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+VDVerticalAlignment.h"; sourceTree = "<group>"; };
+		FE6403CE1D545AC500652BAC /* UILabel+VDVerticalAlignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+VDVerticalAlignment.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +65,9 @@
 				FE6403AF1D545A6D00652BAC /* objcLabel */,
 				FE6403BB1D545A6D00652BAC /* objcLabelTests */,
 				FE6403AE1D545A6D00652BAC /* Products */,
+				FE6403C71D545A9700652BAC /* Cartfile */,
+				FE6403C81D545A9700652BAC /* objcLabel.podspec */,
+				FE6403C91D545A9700652BAC /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +85,8 @@
 			children = (
 				FE6403B01D545A6D00652BAC /* objcLabel.h */,
 				FE6403B21D545A6D00652BAC /* Info.plist */,
+				FE6403CD1D545AC500652BAC /* UILabel+VDVerticalAlignment.h */,
+				FE6403CE1D545AC500652BAC /* UILabel+VDVerticalAlignment.m */,
 			);
 			path = objcLabel;
 			sourceTree = "<group>";
@@ -94,6 +108,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE6403B11D545A6D00652BAC /* objcLabel.h in Headers */,
+				FE6403CF1D545AC500652BAC /* UILabel+VDVerticalAlignment.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +193,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6403CA1D545A9700652BAC /* Cartfile in Resources */,
+				FE6403CB1D545A9700652BAC /* objcLabel.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6403D01D545AC500652BAC /* UILabel+VDVerticalAlignment.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
