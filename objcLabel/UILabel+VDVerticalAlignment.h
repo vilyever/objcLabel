@@ -20,12 +20,12 @@ typedef NS_ENUM(NSInteger, VDTextVerticalAlignment) {
 
 
 #pragma mark Public Method
-- (void)vd_setVerticalAligmentToTop;
-- (void)vd_setVerticalAligmentToCenter;
-- (void)vd_setVerticalAligmentToBottom;
+//- (void)vd_setVerticalAligmentToTop;
+//- (void)vd_setVerticalAligmentToCenter;
+//- (void)vd_setVerticalAligmentToBottom;
 
 #pragma mark Properties
-@property (nonatomic, assign) VDTextVerticalAlignment vd_textVerticalAlignment;
+//@property (nonatomic, assign) VDTextVerticalAlignment vd_textVerticalAlignment;
 
 #pragma mark Protected Method
 
